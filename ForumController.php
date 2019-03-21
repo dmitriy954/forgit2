@@ -28,6 +28,7 @@ class ForumController extends Controller
     public function actionIndex()
     {
         $forumData = [];
+		$xxx = "ddd";
 
         $forumCategories = ForumCategory::find()->all();
 
