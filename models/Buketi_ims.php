@@ -1,0 +1,19 @@
+<?php
+
+namespace app\models;
+
+use Yii;
+
+class Buketi_ims extends \yii\db\ActiveRecord
+{
+    /**
+     * @inheritdoc
+     */
+    public static function tableName()
+    {
+        return 'buketi_ims';
+    }
+	
+	
+	
+}

@@ -1,0 +1,23 @@
+    
+	
+.kabinet .mydivider	{
+	background: #eee none repeat scroll 0 0;
+    height: 1px;
+    margin: 9px 0;
+	margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.kabinet .mar50gkab {
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.kabinet .mydividerbold	{
+	background: #72c02c none repeat scroll 0 0;
+    height: 2px;
+    margin: 50px 0;
+	
+    overflow: hidden;
+}

@@ -1,0 +1,59 @@
+.tab-v3 .nav-pills li a {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+
+.tab-v3 .nav-pills li a:hover, .tab-v3 .nav-pills li.active a {
+    background: #e67e22 none repeat scroll 0 0;
+    border: 1px solid #d35400;
+    color: #fff;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a, .nav-tabs.nav-justified > li > a {
+    border-radius: 0;
+}
+
+a, .container {
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+}
+
+.tab-v3 .nav-pills li i {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    width: 1.25em;
+}
+
+.tab-v3 .tab-content {
+    background: #fff none repeat scroll 0 0;
+    padding: 15px 0;
+}
+
+.tabs_main_page_items {
+   
+	min-height: 70px;
+}
+
+.tabs_main_page_items a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.tabs_main_page_items a:hover {
+	text-decoration: none;
+}
+
+.tabs_items_name {
+    padding-bottom: 5px;
+    padding-top: 5px;
+	font-size: 16px;
+    line-height: 21px;
+	
+	
+	
+}
+

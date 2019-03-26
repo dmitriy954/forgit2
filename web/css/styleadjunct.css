@@ -1,0 +1,135 @@
+
+
+
+.product-list:after {  
+ content:'';
+  clear:both;
+  display:block;
+  height:0;
+  font-size:0;
+   }   
+   
+  
+ 
+ .product-list  {
+	 padding:28px 0 0; 
+	 
+	 position:relative;
+  
+  margin:0 auto;
+ }
+ 
+ .product-list ul {
+  list-style:none;
+  line-height:0;
+  font-size:0;
+  padding:0;
+  margin:0;
+  padding:30px 0;
+ /* margin:0 -20px;  */
+  text-align:center;
+}
+.product-list ul li {
+  position:relative;
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+  width:20%;
+  padding:0;
+  margin:0;
+  background:#fff;
+ 
+  font-size:14px;
+  line-height:normal;
+  color:#000000;
+  text-align:left;
+  vertical-align:top;
+  
+ 
+}
+
+.buket_parent_adj
+{
+	 background: #fff none repeat scroll 0 0;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    transition: none 0s ease 0s ;	
+	position: relative;
+	min-height: 150px;
+	width: 100%;
+	padding: 10px 26px;
+	
+}
+
+
+.buket_parent_adj:hover .buket_parent2 {
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18);
+	border-radius: 3px;
+	border: 1px solid #d3d3d3;
+	background: #fff;
+	-webkit-animation: borderview 0.5s;
+	animation: borderview 0.5s;
+	padding: 10px 26px;
+}
+	
+.buket_parent_adj:hover .buk_title
+	  {
+	    overflow: auto;
+	    white-space: normal;
+	  }
+.parent_incart_adj
+{
+	display: none;
+	
+}
+
+.buket_parent2 .parent_incart_adj
+{
+	
+	margin-left: auto; margin-right: auto;
+	float: none;
+	position: relative;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+	  
+.buket_parent2 .incart 
+{
+	display: inline-block;
+	font-weight: bold;
+    width: auto;
+	margin-left: auto; margin-right: auto;
+	text-align: center;
+	float: none;
+	position: relative;
+	
+	
+}
+
+.buket_parent_adj:hover .parent_incart_adj {
+	display: block;
+	}
+	
+@media (max-width: 960px) {
+	.buket_parent_adj { padding: 0 15px 15px   }
+	.buket_parent_adj:hover .buket_parent2 {
+		padding: 0 15px 15px
+	}
+	
+	.product-list ul li { width: 32%;}
+}
+@media (max-width: 500px) {
+	.product-list ul li { width: 49%;}
+	
+	
+	]
+
